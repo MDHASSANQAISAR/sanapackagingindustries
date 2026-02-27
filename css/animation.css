@@ -1,0 +1,114 @@
+.menu-toggle span {
+    transition: 0.3s;
+}
+
+nav {
+    transition: max-height 0.3s;
+}
+
+nav a {
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+.footer-section a {
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #4CAF50;
+}
+
+.social-links a {
+    transition: background 0.3s;
+}
+
+.social-links a:hover {
+    background: #4CAF50;
+}
+
+.footer-bottom a {
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+
+.btn {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card {
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.cert-card {
+    transition: transform 0.3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-btn {
+    transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #20ba5a;
+    text-decoration: none !important;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+
+.client-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.client-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+.machine-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.machine-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
