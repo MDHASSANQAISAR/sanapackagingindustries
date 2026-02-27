@@ -146,6 +146,39 @@ footer {
     vertical-align: middle;
 }
 
+.footer-business-info {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    margin: 2rem auto 1rem;
+    max-width: 1200px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.footer-business-info h3 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.business-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.business-detail-item {
+    padding: 0.5rem;
+}
+
+.business-detail-item strong {
+    color: #4CAF50;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
@@ -223,6 +256,15 @@ footer {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .business-details {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-business-info {
+        padding: 1rem;
+        margin: 1rem auto 0.5rem;
     }
 }
 

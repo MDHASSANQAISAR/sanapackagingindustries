@@ -628,7 +628,29 @@
     font-size: 1.1rem;
     line-height: 1.8;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
+}
+
+.certificate-download {
+    margin-top: 2rem;
+}
+
+.certificate-download .btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    background: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.certificate-download .btn:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -701,6 +723,13 @@
 
     .cert-hero h1 {
         font-size: 2rem;
+    }
+
+    .certificate-download .btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 300px;
     }
 }
 
